@@ -69,4 +69,19 @@ footer{
     text-decoration: underline;
     font-size: 1.5rem;
 } 
+@media (max-width: 400px){
 
+    input{
+        width: 37vh;
+    }
+
+    table{
+        width: 37vh;
+    }
+
+    button{
+        width: 9vh;
+        height: 9vh;
+    }
+
+}
