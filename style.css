@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(86deg, blue , black);
+    font-size: 1.5rem; 
+    color: white;
+    height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 49.5vh;
+    height: 2.5rem;
+    border-radius: 10px;
+    text-align: end;
+    font-size: 1.25rem;
+}
+
+table{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 49.5vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+
+button{
+    width: 12vh;
+    height: 12vh;
+    font-size: 1.5rem; 
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
+} 
+

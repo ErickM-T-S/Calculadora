@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+       <div>
+            <h2>realize seus calculos</h2>
+            <input type="text" id="resultado" readonly>
+            <table>
+                <tr>
+                    <td><button onclick="limpar()">C</button></td>
+                    <td><button onclick="inserirParenteses()">()</button></td>
+                    <td><button onclick="insert('%')">%</button></td>
+                    <td><button onclick="insert('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert(7)">7</button></td>
+                    <td><button onclick="insert(8)">8</button></td>
+                    <td><button onclick="insert(9)">9</button></td>
+                    <td><button onclick="insert('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert(4)">4</button></td>
+                    <td><button onclick="insert(5)">5</button></td>
+                    <td><button onclick="insert(6)">6</button></td>
+                    <td><button onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert(1)">1</button></td>
+                    <td><button onclick="insert(2)">2</button></td>
+                    <td><button onclick="insert(3)">3</button></td>
+                    <td><button onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert(0)">0</button></td>
+                    <td><button onclick="insert('.')">,</button></td>
+                    <td><button onclick="apagarUnidade()">← </button></td>
+                    <td><button onclick="calcular()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.2/math.min.js"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <p>feito por erickM-T-S</p>
+    </footer>
+</body>
+</html>
