@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(86deg, blue , black);
+    background: linear-gradient(86deg, #0B60B0 , black);
     font-size: 1.5rem; 
     color: white;
     height: 100vh;
